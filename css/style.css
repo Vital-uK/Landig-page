@@ -1,0 +1,148 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+}
+
+.footer, .bottom, .quote-box, .content, .top, .header {
+    padding: 16px 48px;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none; 
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: #1f2937;
+    color: #f9faf8;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2937;
+    flex: 1;
+}
+
+.greeting-text-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.greeting-text-main {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.greeting-text {
+    display: flex;
+    flex-direction: column;
+    
+    align-items:flex-start;
+   
+    max-width: 400px;
+}
+
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.img-top {
+    max-height: 250px;
+    flex: 0;
+}
+
+.content {
+    flex: 1;
+}
+
+.content-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.conteiner {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.img-pair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex 1;
+}
+
+.text {
+    color: #1f2937;
+    max-width: 150px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.quote-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e5e7eb;
+    flex: 1;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.img {
+    width: 125px;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
