@@ -64,7 +64,9 @@ a {
     align-items: center;
     justify-content: center;
     background: #1f2937;
-    
+    max-height: 298px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     flex: 1;
 }
 
@@ -170,7 +172,7 @@ a {
 
 .bottom {
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
     flex: 1;
 }
