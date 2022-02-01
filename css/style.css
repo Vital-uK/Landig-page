@@ -96,7 +96,7 @@ a {
 
 
 .img-top {
-    max-height: 250px;
+    height: 250px;
     flex-grow: 0;
     margin-bottom: 24px;
 }
